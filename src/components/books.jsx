@@ -34,7 +34,7 @@ const AboutBook = () => {
           </p>
 
           {/* ✅ Paystack modal for this book */}
-          <PaystackModal bookName="DreamsBeyondBorders" amount={100} />
+          <PaystackModal bookName="DreamsBeyondBorders" amount={5000} />
         </div>
 
         <div className="book-card">
