@@ -1,0 +1,217 @@
+.submission-page {
+  min-height: 100vh;
+  padding: 120px 20px 60px 20px;
+  background: linear-gradient(to right, #f3d19e, #f2f2f2, #ada996);
+}
+
+.submission-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-button {
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.submission-content {
+  background: white;
+  border-radius: 16px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.submission-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e7c98b;
+}
+
+.header-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.submission-header h1 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+  color: #b49e6f;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.submission-info {
+  margin-bottom: 40px;
+}
+
+.submission-info h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.submission-info p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.benefits-section {
+  background: #fafafa;
+  padding: 25px;
+  border-radius: 12px;
+  border-left: 4px solid #b49e6f;
+}
+
+.benefits-section h3 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.benefits-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-section li {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.submission-form {
+  background: #fafafa;
+  padding: 35px;
+  border-radius: 12px;
+}
+
+.submission-form h2 {
+  font-size: 1.8rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.form-description {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.form-field {
+  margin-bottom: 25px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.form-field input,
+.form-field select {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+  background: white;
+}
+
+.form-field input:focus,
+.form-field select:focus {
+  outline: none;
+  border-color: #b49e6f;
+}
+
+.submit-payment-btn {
+  width: 100%;
+  padding: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.submit-payment-btn:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.submit-payment-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .submission-page {
+    padding: 100px 15px 40px 15px;
+  }
+
+  .submission-content {
+    padding: 30px 20px;
+  }
+
+  .submission-header h1 {
+    font-size: 2rem;
+  }
+
+  .header-icon {
+    font-size: 3rem;
+  }
+
+  .submission-info h2,
+  .submission-form h2 {
+    font-size: 1.5rem;
+  }
+
+  .submission-info p {
+    font-size: 1rem;
+  }
+
+  .benefits-section li {
+    font-size: 1rem;
+  }
+
+  .submission-form {
+    padding: 25px 20px;
+  }
+
+  .submit-payment-btn {
+    font-size: 1.1rem;
+    padding: 14px;
+  }
+}

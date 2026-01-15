@@ -1,0 +1,152 @@
+.submissions-section {
+  padding: 80px 20px;
+  background-color: #fafafa;
+}
+
+.submissions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.submissions-title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.submissions-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #555;
+}
+
+.submissions-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.submission-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submission-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.card-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.submission-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+  color: #b49e6f;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.card-description {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.submission-card p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 30px 0;
+  text-align: left;
+}
+
+.benefits-list li {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.documentation-notice {
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.documentation-notice h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.documentation-notice p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .submissions-title {
+    font-size: 2rem;
+  }
+
+  .submissions-subtitle {
+    font-size: 1rem;
+  }
+
+  .submissions-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .submission-card {
+    padding: 30px 20px;
+  }
+
+  .submission-card h2 {
+    font-size: 1.5rem;
+  }
+
+  .card-icon {
+    font-size: 3rem;
+  }
+
+  .documentation-notice h3 {
+    font-size: 1.5rem;
+  }
+
+  .documentation-notice p {
+    font-size: 1rem;
+  }
+}

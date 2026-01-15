@@ -88,7 +88,7 @@ const missionAbout = () => {
             <button className="cta-btn">
               <Mail size={18} /> Join Our Newsletter
             </button>
-            <button className="cta-btn">
+            <button className="cta-btn" onClick={() => window.location.href = 'mailto:azimikoko5@gmail.com'}>
               <Phone size={18} /> Contact Us
             </button>
           </div>

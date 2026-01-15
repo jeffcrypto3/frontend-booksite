@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   /* background: linear-gradient(to left, #F3904F, #3B4371); */
   background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
-
+  overflow-x: hidden;
 }
 
 *{
@@ -16,4 +16,5 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }

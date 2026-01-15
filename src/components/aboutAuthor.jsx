@@ -60,7 +60,7 @@ const AboutAuthor = () => {
 
           <div className="author-buttons">
             <button>📧 Join Our Newsletter</button>
-            <button>☎️ Contact Us</button>
+            <button onClick={() => window.location.href = 'mailto:azimikoko5@gmail.com'}>☎️ Contact Us</button>
           </div>
 
           <p className="contact-info">

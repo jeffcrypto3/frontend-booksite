@@ -1,0 +1,184 @@
+/* Submission Action Button - Matches Buy Now style */
+.submission-action-btn {
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 35px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+
+.submission-action-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Submission Buttons - Keep for backwards compatibility */
+.submission-button {
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.stream-btn {
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+}
+
+.stream-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(180, 158, 111, 0.4);
+}
+
+.painpoint-btn {
+  background: linear-gradient(to right, #b49e6f, #e7c98b);
+  color: #000;
+}
+
+.painpoint-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(180, 158, 111, 0.4);
+}
+
+/* Submission Modal Box - Uses same styling as paystack modal */
+.submission-modal {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.submission-modal h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.modal-description {
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.modal-description strong {
+  color: #28a745;
+  font-size: 1.1rem;
+}
+
+/* Flyer Placeholder */
+.submission-flyer-placeholder {
+  background: #f8f9fa;
+  border: 2px dashed #b49e6f;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submission-flyer {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: 8px;
+}
+
+.placeholder-note {
+  color: #b49e6f;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #b49e6f;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.form-group small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Note: .modal-buttons is defined in paystack.css and shared across all modals */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .submission-button {
+    font-size: 1rem;
+    padding: 15px 30px;
+  }
+
+  .submission-modal {
+    padding: 20px;
+    max-height: 95vh;
+  }
+
+  .submission-modal h2 {
+    font-size: 1.5rem;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}

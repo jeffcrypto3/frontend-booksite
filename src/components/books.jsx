@@ -19,7 +19,7 @@ const AboutBook = () => {
       <br />
 
       <div className="featured-books">
-        <div className="book-card">
+        <div className="book-card" data-aos="fade-up">
           <div className="image-container">
             <img src={DreamsBkImage} alt="Dreams Beyond Borders" />
           </div>
@@ -37,7 +37,7 @@ const AboutBook = () => {
           <PaystackModal bookName="DreamsBeyondBorders" amount={5000} />
         </div>
 
-        <div className="book-card">
+        <div className="book-card" data-aos="fade-up" data-aos-delay="200">
           <div className="image-container">
             <img id="gods-img" src={godsBkImage} alt="Gods to Goddesses" />
           </div>

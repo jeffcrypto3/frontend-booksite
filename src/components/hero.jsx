@@ -6,12 +6,12 @@ const Hero = () => {
   return (
     <>
       <section className='hero-section'>
-        <div className='hero-section1'>
-            <h1>Welcome to Azimi Koko’s world — where ideas, books, and innovation meet purpose.</h1>
+        <div className='hero-section1' data-aos="fade-down">
+            <h1>Welcome to Azimi Koko's world — where ideas, books, and innovation meet purpose.</h1>
         </div>
 
 
-        <div className='hero-img'>
+        <div className='hero-img' data-aos="zoom-in" data-aos-delay="200">
             <img src={Azimi} alt="" />
         </div>
       </section>
