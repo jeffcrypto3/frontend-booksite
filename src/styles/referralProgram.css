@@ -76,31 +76,25 @@
   color: #333;
 }
 
-.referral-flyer-placeholder {
+.referral-flyer-container {
   position: relative;
   background: #ffffff;
   border-radius: 12px;
-  padding: 20px;
-  min-height: 400px;
+  padding: 15px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 3px dashed #b49e6f;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .referral-flyer {
   max-width: 100%;
+  height: auto;
   border-radius: 8px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.placeholder-text {
-  color: #b49e6f;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.1rem;
-  margin-top: 20px;
+  display: block;
+  object-fit: contain;
 }
 
 .email-cta {
@@ -153,5 +147,14 @@
 
   .email-cta p {
     font-size: 1.1rem;
+  }
+
+  .referral-flyer-container {
+    padding: 10px;
+  }
+
+  .referral-flyer {
+    max-width: 100%;
+    border-radius: 6px;
   }
 }

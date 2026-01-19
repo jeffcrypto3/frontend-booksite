@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/referralProgram.css";
+import referralFlyer from "../assets/yes-we-can-flyer.png";
 
 const ReferralProgram = () => {
   return (
@@ -30,17 +31,12 @@ const ReferralProgram = () => {
             </div>
           </div>
 
-          {/* 📸 PLACEHOLDER: Insert referral program flyer image here */}
-          <div className="referral-flyer-placeholder">
+          <div className="referral-flyer-container">
             <img 
-              src="/path-to-referral-flyer.jpg" 
-              alt="Referral Program Flyer" 
+              src={referralFlyer} 
+              alt="Yes We Can Book Club - Referral Program" 
               className="referral-flyer"
             />
-            <p className="placeholder-text">
-              📸 INSERT REFERRAL PROGRAM FLYER IMAGE HERE<br/>
-              Replace the src path in referralProgram.jsx
-            </p>
           </div>
         </div>
 
